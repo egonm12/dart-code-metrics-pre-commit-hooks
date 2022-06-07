@@ -1,0 +1,48 @@
+-   id: dart-code-metrics-analyze
+    name: Dart Code Metrics - Analyze
+    entry: scripts/dart_analyze
+    language: script
+    types: [dart]
+    require_serial: true
+-   id: dart-code-metrics-check-unused-code
+    name: Dart Code Metrics - Check unused code
+    entry: scripts/dart_unused_code
+    language: script
+    types: [dart]
+    require_serial: true
+-   id: dart-code-metrics-check-unused-files
+    name: Dart Code Metrics - Check unused files
+    entry: scripts/dart_unused_files
+    language: script
+    types: [dart]
+    require_serial: true
+-   id: dart-code-metrics-check-unused-l10n
+    name: Dart Code Metrics - Check unused l10n
+    entry: scripts/dart_unused_l10n
+    language: script
+    types: [dart]
+    require_serial: true
+-   id: flutter-code-metrics-analyze
+    name: Flutter Code Metrics - Analyze
+    entry: scripts/flutter_analyze
+    language: script
+    types: [dart]
+    require_serial: true
+-   id: flutter-code-metrics-check-unused-code
+    name: Flutter Code Metrics - Check unused code
+    entry: scripts/flutter_unused_code
+    language: script
+    types: [dart]
+    require_serial: true
+-   id: flutter-code-metrics-check-unused-files
+    name: Flutter Code Metrics - Check unused files
+    entry: scripts/flutter_unused_files
+    language: script
+    types: [dart]
+    require_serial: true
+-   id: flutter-code-metrics-check-unused-l10n
+    name: Flutter Code Metrics - Check unused l10n
+    entry: scripts/flutter_unused_l10n
+    language: script
+    types: [dart]
+    require_serial: true
