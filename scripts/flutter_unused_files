@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-flutter pub run dart_code_metrics:metrics check-unused-files lib --fatal-style --fatal-performance --fatal-warnings --set-exit-on-violation-level=alarm
+flutter pub run dart_code_metrics:metrics check-unused-files lib --fatal-unused
